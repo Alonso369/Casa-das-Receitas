@@ -21,18 +21,18 @@
             <div class="logo">
                 <a href="index.html "><img src="img/logo011.png " alt="Logo da Pizzaria " title="logo "></a>
             </div>
-            <form action="/search" method="get" class="pesquisa">
-                <input class=" search-input " placeholder="Pesquisar... " type="text " id="search " name="q" onkeyup="showSuggestions(this.value)">
-                <ul id="sugestoes" class="card-completo"></ul>
-                <button type=" submit " class="search-button ">
-                    <i class=" fa fa-search "></i> Buscar
+            <div class="pesquisa">
+                <input id="input-text" class=" search-input" placeholder="Pesquisar... " type="text " id="search " name="q">
+                <ul id="sugestoes " class="card-completo "></ul>
+                <button onclick="handleSearch() " class="search-button ">
+                    <i class="fa fa-search "></i> Buscar
                     </button>
-            </form>
+            </div>
             <!-- menu contato / login -->
             <div class="menu grow1 ">
                 <ul>
                     <li>
-                        <a href="https://mail.google.com/mail/u/0/#inbox?compose=new "><i class="fas fa-envelope "></i></a>
+                        <a href="mailto:alonso2chz@gmail.com"><i class="fas fa-envelope "></i></a>
                     </li>
                     <li>
                         <a href=" "><i class="fas fa-user "></i></a>
@@ -41,14 +41,11 @@
             </div>
         </nav>
     </header>
-    <main class="flex banner fundo ">
-        <div id=listaLateral class="list">
-            <!-- Itens sendo injetados pelo JS -->
-        </div>
-        <section class="galery ">
+    <main id="main-content" class="flex banner fundo ">
+        <section id="galery-section" class="galery ">
             <h1 class="title-galery ">Casa das Receitas</h1>
             <section id="cardView" class="card-gallery ">
-
+                <!-- Código injetado via JS -->
             </section>
         </section>
     </main>
