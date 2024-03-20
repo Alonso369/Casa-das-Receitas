@@ -1,0 +1,310 @@
+body {
+    font-family: "Open Sans", sans-serif;
+}
+
+.bg-dark {
+    background-color: #ec6d12;
+}
+
+
+/* Barra de navegação */
+
+.pesquisa {
+    width: fit-content;
+    display: flex;
+    min-height: fit-content;
+    height: fit-content;
+    height: 2rem;
+    border-radius: 999px;
+    overflow: hidden;
+    background-color: white;
+}
+
+#suggestions {
+    list-style-type: none;
+    align-items: center;
+    padding: 0;
+    margin: 2rem;
+    position: absolute;
+    background-color: #f9f9f9;
+    border: 1px solid #ddd;
+    width: 17rem;
+    height: fit-content;
+    display: center;
+    font-family: "Open Sans", sans-serif;
+    flex-direction: center;
+    color: #fc471e;
+}
+
+#suggestions li {
+    padding: 10px;
+    cursor: pointer;
+}
+
+#suggestions li:hover {
+    background-color: #f9f9f9;
+}
+
+.link {
+    text-decoration: none;
+    color: #F39A86;
+    font-style: normal;
+}
+
+.search-input {
+    height: 100%;
+    font-family: "Open Sans", sans-serif;
+    padding: 1rem;
+    border-radius: 999px;
+    outline: none;
+}
+
+.search-button {
+    height: 100%;
+    padding: 1rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 0.5rem;
+    border-radius: 999px;
+    color: #F39A86;
+    background-color: #fce8d5;
+    font-family: "Open Sans", sans-serif;
+}
+
+.logo img {
+    width: 60px;
+    height: 60px;
+}
+
+.menu li {
+    display: inline;
+    padding: 10px;
+}
+
+.menu a {
+    color: rgb(173, 86, 24);
+    text-decoration: none;
+    padding: 10px;
+    font-weight: bolder;
+}
+
+.menu a:hover {
+    background-color: #fcb16b;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+.nav {
+    display: flex;
+    /* valor padrão do flex-direction: row; */
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0.5rem 2rem;
+}
+
+.logo {
+    text-align: center;
+}
+
+.flex {
+    display: flex;
+}
+
+.btn {
+    text-transform: uppercase;
+    border-radius: 5px;
+    color: #fff;
+    padding: 12px 12px 12px 12px;
+    text-decoration: none;
+}
+
+.banner-button {
+    margin-top: 32px;
+    text-align: center;
+}
+
+.banner h2 {
+    padding: 10px;
+}
+
+.banner img {
+    width: 80%;
+}
+
+.banner {
+    background: url('../img/hero-bg.png') fixed;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    box-sizing: border-box;
+}
+
+
+/* Css dos CARDS */
+
+.card {
+    display: flex;
+    background-color: white;
+    justify-content: flex-start;
+    align-items: center;
+    width: 100%;
+    height: 7rem;
+    padding: 1rem;
+    gap: 1rem;
+    border-bottom: 1px solid gray;
+}
+
+.card:hover {
+    background-color: rgb(253, 227, 199);
+    cursor: pointer;
+}
+
+.card:active {
+    background-color: rgb(250, 204, 155);
+}
+
+.img-wrapper {
+    height: 5rem;
+    width: fit-content;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    aspect-ratio: 1/1;
+}
+
+.card-info {
+    height: 100%;
+    width: fit-content;
+    justify-content: center;
+    align-items: flex-start;
+    display: flex;
+    gap: 0.5rem;
+    flex-direction: column;
+}
+
+.card-main {
+    color: #F39A86;
+    text-transform: uppercase;
+    font-size: 1rem;
+    font-weight: 900;
+    font-family: "Open Sans", sans-serif;
+    line-height: 100%;
+    height: fit-content;
+}
+
+.card-complemento {
+    color: #000000;
+    font-size: 0.875rem;
+    font-weight: 400;
+    font-family: "Open Sans", sans-serif;
+}
+
+.list {
+    min-width: 20rem;
+    max-width: 20rem;
+    display: flex;
+    flex-direction: column;
+    gap: 1px;
+    padding-top: 2rem;
+    background-color: #ffffff;
+}
+
+
+/* CSS da Página do meio */
+
+.galery {
+    padding: 2rem;
+    width: 100%;
+}
+
+.title-galery {
+    display: flex;
+    font-weight: bolder;
+    text-align: center;
+    background-color: #F39A86;
+    color: #ffffff;
+    border-radius: 5px;
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 1.5rem;
+}
+
+.card-gallery {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.img-galery {
+    display: flex;
+    flex-direction: column;
+    padding-top: 0.1rem;
+    width: 100%;
+    gap: 0.5;
+    align-items: center;
+    justify-content: center;
+}
+
+.informacoes-receitas {
+    background-color: #F2F2F2;
+    height: fit-content;
+}
+
+
+/* CSS de parte três */
+
+.mid-info-wrapper {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #F9F5F3;
+    width: 100%;
+}
+
+.icone {
+    height: 5px;
+    width: 5px;
+    background-color: red;
+}
+
+.recipe-mid-info {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 2rem;
+    padding: 1rem;
+}
+
+.recipe-item {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+    min-width: fit-content;
+    gap: 0.5rem;
+}
+
+.bottom-info-wrapper {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    background-color: #F2EFEE;
+    width: 100%;
+    padding: 1rem;
+    max-height: 9.375rem;
+    flex-wrap: wrap;
+    color: black;
+}
+
+.icon-orange {
+    color: #ec6d12;
+}
