@@ -1,1 +1,0 @@
-Texto de como funciona o site
